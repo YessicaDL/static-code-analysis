@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class OperationController extends Controller
+class OperationsController extends Controller
 {
     public function addition(int $a, int $b): int
     {
