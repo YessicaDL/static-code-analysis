@@ -25,5 +25,7 @@ class ExampleTest extends TestCase
         $this->assertNotNull($result);
 
         $this->assertEquals(13, $result);
+
+        $this->assertGreaterThan(0, $result);
     }
 }
