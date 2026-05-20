@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use App\Http\Controllers\OperationController;
+use App\Http\Controllers\OperationsController;
 use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
@@ -17,7 +17,7 @@ class ExampleTest extends TestCase
 
     public function test_addition_result(): void
     {
-        $controller = new OperationController;
+        $controller = new OperationsController;
 
         $result = $controller->addition(4, 9);
 
